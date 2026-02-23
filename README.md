@@ -169,8 +169,5 @@ Potential additions to the platform:
 
 ---
 
-**Platform**: SkillSync  
-**Version**: 1.0  
-**Last Updated**: February 2026  
-**Location**: Kigali, Rwanda
-"# SkillSync" 
+Name: **BUGINGO Flexon**
+Reg NO: *25RP02061*
