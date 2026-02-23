@@ -6,12 +6,12 @@ SkillSync is a modern, responsive web application designed to facilitate skill-s
 
 ## Features
 
-### 🏠 Dashboard
+### Dashboard
 - **Home Page** - Main landing page displaying featured community members and their skills
 - **Responsive Grid Layout** - Three-column layout showcasing skill-sharing profiles with real user photos
 - **Quick View Access** - Easy navigation to view detailed user profiles
 
-### 👥 User Profiles
+### User Profiles
 - **Individual Profile Pages** - Detailed pages for each community member:
   - BUGINGO Flexon - Traditional Cuisine & Farming Techniques Expert
   - UWINEZA Khadidja - Graphic Design & Adobe Tools Specialist
@@ -25,17 +25,17 @@ SkillSync is a modern, responsive web application designed to facilitate skill-s
   - Location information
   - Star ratings and achievement metrics
 
-### 📚 My Skills Management
+### My Skills Management
 - **Manage Your Skills** - Add, edit, and delete skills you can teach
 - **Skill Cards** - Display your expertise with proficiency levels and categories
 - **Profile Management** - Showcase your capabilities to the community
 
-### 📋 Learning Requests
+### Learning Requests
 - **Browse Requests** - View learning requests from community members
 - **Manage Requests** - Accept, decline, or track pending requests
 - **Tabbed Navigation** - Organize requests by status (Pending, Accepted, Declined)
 
-### ⚙️ Settings
+### Settings
 - **Account Settings** - Manage profile information and preferences
 - **Privacy Controls** - Configure who can view your skills and profile
 - **Security Settings** - Password and authentication management
