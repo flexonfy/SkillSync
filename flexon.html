@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUGINGO Flexon - SkillSync</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <div class="flex h-screen flex-col">
+        <!-- Sticky Header -->
+        <header class="sticky top-0 z-50 border-b border-slate-700 bg-slate-900 shadow-sm">
+            <div class="flex h-16 items-center justify-between px-6">
+                <span class="text-xl font-bold text-slate-100">SkillSync</span>
+                <a href="index.html" class="inline-flex items-center justify-center rounded-lg bg-slate-800 px-4 py-2 text-sm font-medium text-slate-400 hover:bg-slate-700 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Back to Dashboard
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto">
+            <div class="mx-auto max-w-4xl px-8 py-12">
+                <!-- Profile Header -->
+                <div class="mb-8 overflow-hidden rounded-lg bg-white shadow-lg">
+                    <div class="h-48 bg-cover bg-center" style="background-image: url('images/flexon.jpg')"></div>
+                    <div class="relative px-8 pb-8">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-end">
+                            <!-- Avatar -->
+                            <div class="h-32 w-32 -mt-16 rounded-lg border-4 border-white bg-white shadow-lg overflow-hidden">
+                                <img src="images/flexon.jpg" alt="Flexon" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="flex-1">
+                                <h1 class="text-4xl font-bold text-slate-900">BUGINGO Flexon</h1>
+                                <p class="mt-2 flex items-center gap-2 text-lg text-slate-600">
+                                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z"/>
+                                    </svg>
+                                    Kigali, Rwanda
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Section -->
+                <div class="mb-8 rounded-lg bg-white p-8 shadow">
+                    <h2 class="mb-4 text-2xl font-bold text-slate-900">About</h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        Flexon is a passionate culinary expert and urban farming enthusiast based in Kigali. With years of experience in traditional Rwandan cuisine, Flexon specializes in teaching authentic cooking techniques and sustainable urban farming practices. Dedicated to preserving cultural culinary traditions while embracing modern technological advancements.
+                    </p>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="grid gap-8 md:grid-cols-2">
+                    <!-- Can Teach -->
+                    <div class="rounded-lg bg-white p-8 shadow">
+                        <h3 class="mb-6 flex items-center gap-2 text-xl font-bold text-slate-900">
+                            <svg class="h-6 w-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                            </svg>
+                            Can Teach
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="rounded-lg border-l-4 border-amber-600 bg-amber-50 p-4">
+                                <h4 class="font-semibold text-slate-900">Traditional Cuisine</h4>
+                                <p class="mt-1 text-sm text-slate-600">Master the art of authentic Rwandan cooking with time-tested recipes and techniques passed down through generations.</p>
+                            </div>
+                            <div class="rounded-lg border-l-4 border-orange-600 bg-orange-50 p-4">
+                                <h4 class="font-semibold text-slate-900">Farming Techniques</h4>
+                                <p class="mt-1 text-sm text-slate-600">Learn sustainable urban farming methods to grow your own vegetables in limited spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wants to Learn -->
+                    <div class="rounded-lg bg-white p-8 shadow">
+                        <h3 class="mb-6 flex items-center gap-2 text-xl font-bold text-slate-900">
+                            <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                            </svg>
+                            Wants to Learn
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="rounded-lg border-l-4 border-blue-600 bg-blue-50 p-4">
+                                <h4 class="font-semibold text-slate-900">Smartphone Basics</h4>
+                                <p class="mt-1 text-sm text-slate-600">Eager to master smartphone technology and digital literacy for better connectivity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistics -->
+                <div class="mt-8 grid gap-4 sm:grid-cols-3">
+                    <div class="rounded-lg bg-amber-50 p-6 text-center">
+                        <div class="text-3xl font-bold text-amber-600">12+</div>
+                        <p class="mt-2 text-sm text-slate-600">Years of Experience</p>
+                    </div>
+                    <div class="rounded-lg bg-orange-50 p-6 text-center">
+                        <div class="text-3xl font-bold text-orange-600">150+</div>
+                        <p class="mt-2 text-sm text-slate-600">Students Taught</p>
+                    </div>
+                    <div class="rounded-lg bg-yellow-50 p-6 text-center">
+                        <div class="text-3xl font-bold text-yellow-600">5★</div>
+                        <p class="mt-2 text-sm text-slate-600">Average Rating</p>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="mt-8 rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 p-8 text-center text-white">
+                    <h3 class="mb-4 text-2xl font-bold">Ready to Learn?</h3>
+                    <p class="mb-6 text-amber-50">Connect with Flexon today and start your culinary journey!</p>
+                    <a href="#" class="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-amber-600 transition-all duration-300 hover:bg-amber-50 active:scale-95">
+                        Send Connection Request
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-700 bg-slate-900 mt-12">
+        <div class="mx-auto max-w-4xl px-8 py-8 text-center">
+            <p class="text-sm text-slate-500">&copy; 2026 SkillSync. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

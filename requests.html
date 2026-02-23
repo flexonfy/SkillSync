@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requests - SkillSync</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <div class="flex h-screen flex-col">
+        <!-- Sticky Header -->
+        <header class="sticky top-0 z-50 border-b border-slate-700 bg-slate-900 shadow-sm">
+            <div class="flex h-16 items-center justify-between px-6">
+                <span class="text-xl font-bold text-slate-100">SkillSync</span>
+                <a href="index.html" class="inline-flex items-center justify-center rounded-lg bg-slate-800 px-4 py-2 text-sm font-medium text-slate-400 hover:bg-slate-700 hover:text-white transition-colors">
+                    <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Back to Dashboard
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto">
+            <div class="mx-auto max-w-4xl px-8 py-12">
+                <!-- Page Header -->
+                <div class="mb-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="h-12 w-12 rounded-lg bg-orange-100 flex items-center justify-center">
+                            <svg class="h-6 w-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                            </svg>
+                        </div>
+                        <h1 class="text-4xl font-bold text-slate-900">Skill Requests</h1>
+                    </div>
+                    <p class="text-slate-600">View and manage requests from community members wanting to learn your skills.</p>
+                </div>
+
+                <!-- Tabs -->
+                <div class="mb-8 flex gap-2 border-b border-slate-200">
+                    <button class="border-b-2 border-blue-600 px-4 py-2 font-medium text-blue-600">Pending (3)</button>
+                    <button class="border-b-2 border-transparent px-4 py-2 font-medium text-slate-600 hover:text-slate-900">Accepted (5)</button>
+                    <button class="border-b-2 border-transparent px-4 py-2 font-medium text-slate-600 hover:text-slate-900">Declined (2)</button>
+                </div>
+
+                <!-- Request Cards -->
+                <div class="space-y-4">
+                    <!-- Request 1 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center gap-4">
+                                <div class="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <span class="text-lg">👨</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">John Muraya</h3>
+                                    <p class="text-sm text-slate-600">Wants to learn: Web Design</p>
+                                </div>
+                            </div>
+                            <span class="inline-block rounded-full bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-800">Pending</span>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">"I'm interested in learning modern web design principles to improve my portfolio."</p>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 transition-colors">Accept</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Decline</button>
+                        </div>
+                    </div>
+
+                    <!-- Request 2 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center gap-4">
+                                <div class="h-12 w-12 rounded-full bg-pink-100 flex items-center justify-center">
+                                    <span class="text-lg">👩</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">Sarah Njeri</h3>
+                                    <p class="text-sm text-slate-600">Wants to learn: JavaScript</p>
+                                </div>
+                            </div>
+                            <span class="inline-block rounded-full bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-800">Pending</span>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">"Looking to transition into web development, would love to learn JavaScript from scratch."</p>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 transition-colors">Accept</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Decline</button>
+                        </div>
+                    </div>
+
+                    <!-- Request 3 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center gap-4">
+                                <div class="h-12 w-12 rounded-full bg-purple-100 flex items-center justify-center">
+                                    <span class="text-lg">👨</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">Mike Odhamba</h3>
+                                    <p class="text-sm text-slate-600">Wants to learn: Mobile App Dev</p>
+                                </div>
+                            </div>
+                            <span class="inline-block rounded-full bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-800">Pending</span>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">"Interested in building cross-platform mobile applications with React Native."</p>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 transition-colors">Accept</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-700 bg-slate-900 mt-12">
+        <div class="mx-auto max-w-4xl px-8 py-8 text-center">
+            <p class="text-sm text-slate-500">&copy; 2026 SkillSync. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

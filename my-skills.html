@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills - SkillSync</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <div class="flex h-screen flex-col">
+        <!-- Sticky Header -->
+        <header class="sticky top-0 z-50 border-b border-slate-700 bg-slate-900 shadow-sm">
+            <div class="flex h-16 items-center justify-between px-6">
+                <span class="text-xl font-bold text-slate-100">SkillSync</span>
+                <a href="index.html" class="inline-flex items-center justify-center rounded-lg bg-slate-800 px-4 py-2 text-sm font-medium text-slate-400 hover:bg-slate-700 hover:text-white transition-colors">
+                    <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    Back to Dashboard
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto">
+            <div class="mx-auto max-w-4xl px-8 py-12">
+                <!-- Page Header -->
+                <div class="mb-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="h-12 w-12 rounded-lg bg-blue-100 flex items-center justify-center">
+                            <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                            </svg>
+                        </div>
+                        <h1 class="text-4xl font-bold text-slate-900">My Skills</h1>
+                    </div>
+                    <p class="text-slate-600">Manage and showcase the skills you can teach to others in the SkillSync community.</p>
+                </div>
+
+                <!-- Add New Skill Button -->
+                <div class="mb-8">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-blue-700 active:scale-95">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                        </svg>
+                        Add New Skill
+                    </a>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="grid gap-6 md:grid-cols-2">
+                    <!-- Skill Card 1 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="mb-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="h-10 w-10 rounded-lg bg-purple-100 flex items-center justify-center">
+                                    <span class="text-lg">🎨</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">Web Design</h3>
+                                    <p class="text-xs text-slate-500">Proficiency: Expert</p>
+                                </div>
+                            </div>
+                            <button class="text-slate-400 hover:text-red-600 transition-colors">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">Create stunning, responsive website designs using modern UI/UX principles.</p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="inline-block rounded-full bg-purple-100 px-3 py-1 text-xs font-medium text-purple-700">UI Design</span>
+                            <span class="inline-block rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700">Responsive</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Edit</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">View Profile</button>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="mb-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="h-10 w-10 rounded-lg bg-yellow-100 flex items-center justify-center">
+                                    <span class="text-lg">💻</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">JavaScript</h3>
+                                    <p class="text-xs text-slate-500">Proficiency: Advanced</p>
+                                </div>
+                            </div>
+                            <button class="text-slate-400 hover:text-red-600 transition-colors">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">Teach modern JavaScript development with ES6+ features, async/await, and best practices.</p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="inline-block rounded-full bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-700">Frontend</span>
+                            <span class="inline-block rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">React</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Edit</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">View Profile</button>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3 -->
+                    <div class="rounded-lg border border-slate-200 bg-white p-6 shadow hover:shadow-lg transition-shadow">
+                        <div class="mb-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="h-10 w-10 rounded-lg bg-green-100 flex items-center justify-center">
+                                    <span class="text-lg">📱</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-900">Mobile App Dev</h3>
+                                    <p class="text-xs text-slate-500">Proficiency: Intermediate</p>
+                                </div>
+                            </div>
+                            <button class="text-slate-400 hover:text-red-600 transition-colors">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="mb-4 text-sm text-slate-600">Learn to build cross-platform mobile applications using React Native and Flutter.</p>
+                        <div class="mb-4 flex flex-wrap gap-2">
+                            <span class="inline-block rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-700">React Native</span>
+                            <span class="inline-block rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700">Flutter</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">Edit</button>
+                            <button class="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition-colors">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-700 bg-slate-900 mt-12">
+        <div class="mx-auto max-w-4xl px-8 py-8 text-center">
+            <p class="text-sm text-slate-500">&copy; 2026 SkillSync. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
